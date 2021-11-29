@@ -1,7 +1,7 @@
 let resumeData = {
   imagebaseurl: 'ttps://github.com/PrashanthDornala/',
   name: 'Prasanth Dornala',
-  role: 'Full Stack Dot Net Developer',
+  role: 'Mid-Level Full Stack Dot Net Developer',
   linkedinId: 'Your LinkedIn Id',
   skypeid: 'Your skypeid',
   roleDescription:
@@ -24,7 +24,7 @@ let resumeData = {
     },
   ],
   aboutme:
-    'Hello, My name is PRASANTH DORNALA. I am a Full Stack Dot Net Developer from Hyderabad, Telangana, India. I love working on a variety of technologies in Web Development. My goal is to build highly performant applications that solve real-world problems and provide users with an awesome experience.',
+    'Hello, My name is PRASANTH DORNALA. I am a Full Stack Dot Net Developer(Mid-Level) from Hyderabad, Telangana, India. I love working on a variety of technologies in Web Development. My goal is to build highly performant applications that solve real-world problems and provide users with an awesome experience.',
   mobileNo: '+91 6301174367',
   address: 'Hyderabad, Telangana, India',
   email: 'prasanth.official111@gmail.com',
@@ -139,19 +139,27 @@ let resumeData = {
 
   portfolio: [
     {
-      name: 'MS SIMULATOR',
-      client: 'Thermo Fisher Scientific',
+      name: 'Tracker I-9',
+      client: 'Mitratech Holdings Inc',
       description:
-        'MS simulator is an existing application with in Thermo Fisher IT landscape. The simulator is used to simulate data acquisition from devices. It has been used across Thermo Fisher to test the device driver software without connecting to a real expensive device. The existing simulator is not meeting the future requirement of TFS as it was built on the old technology. As part of this project, the existing simulator will be re-written using modern technologies (C#, .Net Core, Vue.js, API).',
+        'Tracker I‐9 is designed to help employers verify that an individual is authorized to work in the United States.To comply with the law, employers must verify the identity and employment eligibility of each person they hire, complete and retain a Form I-9 for each employee, and refrain from discriminating against individuals on the basis of national origin or citizenship.Tracker I‐9 Complete supports management of Form I‐9 employment eligibility documentation across UCSF(University of California, San francisco), ensuring accuracy, consistency, and centralized control. Authorized users can create new and modify existing Form I‑9 records and E‐Verify cases using the web‐based user interface.',
       imgurl: 'images/portfolio/phone.jpg',
     },
     {
       name: 'J&K POWER DEVELOPMENT DEPAERTMENT',
       client: 'JKPDD',
       description:
-        'JKPDD  is a customer service portal provides Meter, Usage, and billing information. The source of truth for ADSS is Oracle application CCB (Customer care Billing) and MDM (Meter Data Management). This Product directly and indirectly provides the service to different Consumers’.',
+        'JKPDD  is a customer service portal provides Meter, Usage, and billing information and On-Line payment facility available to Consumers.The source of truth for ADSS is Oracle application CCB (Customer care Billing) and MDM (Meter Data Management). This Product directly and indirectly provides the service to different Consumers..',
       imgurl: 'images/portfolio/project.jpg',
     },
+    {
+      name: 'MS SIMULATOR',
+      client: 'Thermo Fisher Scientific',
+      description:
+        'MS simulator is an existing application with in Thermo Fisher IT landscape. The simulator is used to simulate data acquisition from devices. It has been used across Thermo Fisher to test the device driver software without connecting to a real expensive device. The existing simulator is not meeting the future requirement of TFS as it was built on the old technology. As part of this project, the existing simulator will be re-written using modern technologies (C#, .Net Core, Vue.js, API).',
+      imgurl: 'images/portfolio/phone.jpg',
+    },
+
     {
       name: 'project3',
       description: 'mobileapp',
@@ -165,19 +173,30 @@ let resumeData = {
   ],
   testimonials: [
     {
+      description: 'Tracker I-9',
+      name:
+        'Tracker I‐9 is designed to help employers verify that an individual is authorized to work in the United States.To comply with the law, employers must verify the identity and employment eligibility of each person they hire, complete and retain a Form I-9 for each employee, and refrain from discriminating against individuals on the basis of national origin or citizenship.Tracker I‐9 Complete supports management of Form I‐9 employment eligibility documentation across UCSF(University of California, San francisco), ensuring accuracy, consistency, and centralized control. Authorized users can create new and modify existing Form I‑9 records and E‐Verify cases using the web‐based user interface.',
+      client: 'Mitratech Holdings Inc',
+      techStack:
+        'C#, ASP.NET MVC, Entity Framework, SQL Server 2019 ,Atlasian JiRA Software.',
+    },
+
+    {
+      description: 'J&K POWER DEVELOPMENT DEPAERTMENT',
+      name:
+        'MS simulator is an existing application with in Thermo Fisher IT landscape. The simulator is used to simulate data acquisition from devices. It has been used across Thermo Fisher to test the device driver software without connecting to a real expensive device. The existing simulator is not meeting the future requirement of TFS as it was built on the old technology. As part of this project, the existing simulator will be re-written using modern technologies (C#, .Net Core, Vue.js, API).',
+      client: 'JKPDD',
+      techStack:
+        'ReactJS, Node.js, MySQL, Material-UI, Atlassian Jira Software.',
+    },
+    {
       description: 'MS SIMULATOR',
       name:
         'MS simulator is an existing application with in Thermo Fisher IT landscape. The simulator is used to simulate data acquisition from devices. It has been used across Thermo Fisher to test the device driver software without connecting to a real expensive device. The existing simulator is not meeting the future requirement of TFS as it was built on the old technology. As part of this project, the existing simulator will be re-written using modern technologies (C#, .Net Core, Vue.js, API).',
       client: 'Thermo Fisher Scientific',
       techStack: 'C#, .NET CORE, Web API, VueJS, Microsoft Azure.',
     },
-    {
-      description: 'J&K POWER DEVELOPMENT DEPAERTMENT',
-      name:
-        'JKPDD  is a customer service portal provides Meter, Usage, and billing information. The source of truth for ADSS is Oracle application CCB (Customer care Billing) and MDM (Meter Data Management). This Product directly and indirectly provides the service to different Consumers.',
-      client: 'JKPDD',
-      techStack: 'ReactJS, Node.js, Material-UI, Jira.',
-    },
+
     {
       description: 'HRMS-ATTENDANCE & HR MANAGEMENT SYSTEM',
       name:
